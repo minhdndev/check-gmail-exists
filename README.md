@@ -6,9 +6,8 @@ This Python script checks whether a given Gmail account exists by attempting to 
 - The script constructs a Google Calendar ICS URL using the given Gmail address.
 - It sends an asynchronous HTTP request to the URL.
 - If the response contains the header `x-frame-options` with the value `sameorigin`, the script assumes that the Gmail account exists.
-```
 
-### Example Code
+
 ```py
 import aiohttp
 import asyncio
