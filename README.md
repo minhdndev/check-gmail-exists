@@ -1,4 +1,4 @@
-# Gmail Exists Validator
+# Method: Checking for Gmail account existence
 
 This Python script checks whether a given Gmail account exists by attempting to access its public Google Calendar ICS feed.
 
@@ -68,4 +68,7 @@ if __name__ == "__main__":
 
 ## Purposes
 This project is for educational purposes only.
+
+
+## cre: https://github.com/soenneker
 
