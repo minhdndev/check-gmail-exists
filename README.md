@@ -9,7 +9,7 @@ This Python script checks whether a given Gmail account exists by attempting to 
 ```
 
 ### Example Code
-```python
+```code
 import aiohttp
 import asyncio
 from aiolimiter import AsyncLimiter
